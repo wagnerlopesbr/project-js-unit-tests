@@ -1,23 +1,23 @@
 /* eslint-disable max-len */
 // Siga as orientações do README!
 function foodsAmount(input, item) {
-  let amount = 0;
+  let amountOfFood = 0;
   for (const [key, value] of input) {
     if (key === item) {
-      amount += value;
+        amountOfFood += value;
     }
   }
-  return amount;
+  return amountOfFood;
 }
 
 function drinksAmount(input, item) {
-  let amount = 0;
+  let amountOfDrink = 0;
   for (const [key, value] of input) {
     if (key === item) {
-      amount += value;
+        amountOfDrink += value;
     }
   }
-  return amount;
+  return amountOfDrink;
 }
 
 function createMenu(obj) {
